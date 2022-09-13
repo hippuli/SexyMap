@@ -364,7 +364,9 @@ do
 			end
 			-- On Wrath Classic the Calendar is not parented to the Minimap
 			if n == "GameTimeFrame" then
+				f:ClearAllPoints()
 				f:SetParent(Minimap)
+				f:SetPoint("CENTER", Minimap, "TOPRIGHT", 4, -37)
 			end
 
 			animFrames[#animFrames+1] = f
@@ -566,6 +568,7 @@ do
 	end
 
 	local function CheckCalendar()
+		if not mod.db.controlVisibility then return end
 		local vis = mod.db.visibilitySettings.GameTimeFrame
 		if not vis or vis == "hover" then
 			if C_Calendar.GetNumPendingInvites() < 1 then
