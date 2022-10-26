@@ -1,6 +1,6 @@
 # SexyMap
 
-## [v9.2.12](https://github.com/funkydude/SexyMap/tree/v9.2.12) (2022-10-15)
-[Full Changelog](https://github.com/funkydude/SexyMap/compare/v9.2.11...v9.2.12) [Previous Releases](https://github.com/funkydude/SexyMap/releases)
+## [v10.0.0](https://github.com/funkydude/SexyMap/tree/v10.0.0) (2022-10-26)
+[Full Changelog](https://github.com/funkydude/SexyMap/compare/v9.2.15...v10.0.0) [Previous Releases](https://github.com/funkydude/SexyMap/releases)
 
-- Movers: Bring back moving for the vehicle seat indicator on Wrath, now that Blizz remembered it existed and patched it back in  
+- bump toc  
