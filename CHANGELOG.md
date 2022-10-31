@@ -1,7 +1,6 @@
 # SexyMap
 
-## [v10.0.1](https://github.com/funkydude/SexyMap/tree/v10.0.1) (2022-10-26)
-[Full Changelog](https://github.com/funkydude/SexyMap/compare/v10.0.0...v10.0.1) [Previous Releases](https://github.com/funkydude/SexyMap/releases)
+## [v10.0.3](https://github.com/funkydude/SexyMap/tree/v10.0.3) (2022-10-30)
+[Full Changelog](https://github.com/funkydude/SexyMap/compare/v10.0.2...v10.0.3) [Previous Releases](https://github.com/funkydude/SexyMap/releases)
 
-- Fix the rotate minimap option not persisting, closes #270  
-- Movers: Remove options for objectives frame & buffs frame, use Blizzard's new "Edit Mode" instead.  
+- ZoneText: Make left-clicking the zone text toggle the world map on Dragonflight, closes #276  
