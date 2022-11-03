@@ -475,6 +475,15 @@ hooksecurefunc(AddonCompartmentFrame, "SetParent", function()
 	mod.frame.SetParent(AddonCompartmentFrame, mod.frame)
 end)
 
+-- To turn off Blizz auto hiding the zoom buttons, we pretend the mouse is always over it.
+-- The alternative is killing the Minimap OnEnter/OnLeave script which could screw over other addons.
+-- See MinimapMixin:OnLeave() on line 185 of FrameXML/Minimap.lua
+local fakeMouseOver = function() return true end
+Minimap.ZoomIn.IsMouseOver = fakeMouseOver
+Minimap.ZoomIn:Show()
+Minimap.ZoomOut.IsMouseOver = fakeMouseOver
+Minimap.ZoomOut:Show()
+
 function mod:SetupMap()
 	local Minimap = Minimap
 
@@ -598,4 +607,3 @@ function mod:RegisterModuleOptions(modName, optionTbl, displayName)
 	LibStub("AceConfigRegistry-3.0"):RegisterOptionsTable(name..modName, optionTbl, true)
 	LibStub("AceConfigDialog-3.0"):AddToBlizOptions(name..modName, displayName, name)
 end
-
