@@ -1,6 +1,6 @@
 # SexyMap
 
-## [v10.0.5](https://github.com/funkydude/SexyMap/tree/v10.0.5) (2022-11-03)
-[Full Changelog](https://github.com/funkydude/SexyMap/compare/v10.0.4...v10.0.5) [Previous Releases](https://github.com/funkydude/SexyMap/releases)
+## [v10.0.6](https://github.com/funkydude/SexyMap/tree/v10.0.6) (2022-11-07)
+[Full Changelog](https://github.com/funkydude/SexyMap/compare/v10.0.5...v10.0.6) [Previous Releases](https://github.com/funkydude/SexyMap/releases)
 
-- Swap to a better fix for the zoom buttons #274  
+- Stop making a secure Zone Text button by default (now opt in) closes #289  
