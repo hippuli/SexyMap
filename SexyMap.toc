@@ -1,5 +1,5 @@
-## Interface: 30400
-## Version: v10.0.7
+## Interface: 30401
+## Version: v10.0.8
 ## Title: SexyMap
 ## Notes: Spice up your minimap with some sexy options.
 ## Notes-deDE: Spice up your minimap with some sexy options.
