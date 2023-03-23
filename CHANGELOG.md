@@ -1,6 +1,8 @@
 # SexyMap
 
-## [v10.0.10](https://github.com/funkydude/SexyMap/tree/v10.0.10) (2023-01-27)
-[Full Changelog](https://github.com/funkydude/SexyMap/compare/v10.0.9...v10.0.10) [Previous Releases](https://github.com/funkydude/SexyMap/releases)
+## [v10.0.11](https://github.com/funkydude/SexyMap/tree/v10.0.11) (2023-03-22)
+[Full Changelog](https://github.com/funkydude/SexyMap/compare/v10.0.10...v10.0.11) [Previous Releases](https://github.com/funkydude/SexyMap/releases)
 
-- Border: Fix the default Blizz border being above some default buttons (Mail, Calendar) closes #316  
+- Movers: Remove support for moving the Durability frame, use Blizzard's "Edit Mode" instead  
+- bump toc  
+- Libs: Update CallbackHandler embed  
