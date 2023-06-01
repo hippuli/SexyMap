@@ -171,6 +171,10 @@ L["Zone Text"] = "지역 글자" -- Needs review
 L["Zoom In Button"] = "축소 버튼" -- Needs review
 L["Zoom Out Button"] = "확대 버튼" -- Needs review
 
+-- Buttons.lua
+--L.addonCompartment = "Addon Compartment"
+--L.craftingOrder = "Crafting Order (When Available)"
+
 -- Coordinates.lua
 --L.updateRate = "Update Rate (seconds)"
 --L.updateRateDesc = "The lower the value, the faster the coordinates will update, but the more memory and CPU will be consumed due to asking the game for fresh coordinate data."
@@ -187,3 +191,9 @@ L.pvpCaptureBar = "전장 지배 바"
 --L.zoneTextCombatClick = "|cFF33FF99SexyMap|r: To toggle the World Map in combat, you must enable the feature in the Zone Text options."
 --L.zoneTextSecureButtonEnable = "Allow clicking in combat"
 --L.zoneTextSecureButtonEnableDesc = "Normally you can click the Zone Text to toggle your World Map, but not in combat without this feature enabled.\n\n|cffff0000WARNING!|r Don't enable this feature unless you understand what it does. Turning this on will prevent ALL of your addons from making certain changes to your minimap in combat, such as moving it or hiding it."
+L.none = "안함"
+L.thin = "얇은"
+L.thick = "두꺼운"
+L.outline = "외곽선"
+L.monochrome = "단색"
+L.monochromeDesc = "단색 상태 사용을 전환하여, 글꼴 경계의 모든 다듬기를 제거합니다."

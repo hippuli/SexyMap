@@ -171,6 +171,10 @@ L["Zone Text"] = "Текст игровой зоны" -- Needs review
 L["Zoom In Button"] = "кнопку приближения" -- Needs review
 L["Zoom Out Button"] = "кнопку отдаления" -- Needs review
 
+-- Buttons.lua
+--L.addonCompartment = "Addon Compartment"
+--L.craftingOrder = "Crafting Order (When Available)"
+
 -- Coordinates.lua
 --L.updateRate = "Update Rate (seconds)"
 --L.updateRateDesc = "The lower the value, the faster the coordinates will update, but the more memory and CPU will be consumed due to asking the game for fresh coordinate data."
@@ -187,3 +191,9 @@ L.pvpCaptureBar = "ПвП Бар захвата"
 --L.zoneTextCombatClick = "|cFF33FF99SexyMap|r: To toggle the World Map in combat, you must enable the feature in the Zone Text options."
 --L.zoneTextSecureButtonEnable = "Allow clicking in combat"
 --L.zoneTextSecureButtonEnableDesc = "Normally you can click the Zone Text to toggle your World Map, but not in combat without this feature enabled.\n\n|cffff0000WARNING!|r Don't enable this feature unless you understand what it does. Turning this on will prevent ALL of your addons from making certain changes to your minimap in combat, such as moving it or hiding it."
+L.none = "Нет"
+L.thin = "Тонкий"
+L.thick = "Толстый"
+L.outline = "Контур"
+L.monochrome = "Монохромный"
+L.monochromeDesc = "Включение монохромного флага, убирается любое сглаживание краев шрифта."
